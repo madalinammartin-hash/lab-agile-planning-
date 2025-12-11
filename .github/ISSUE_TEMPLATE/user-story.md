@@ -1,15 +1,15 @@
 ---
 name: User story
-about: Aici descriu o functionalitate
+about: Describe a new user story for the project
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** [user]  
+ **I need** [the ability to update a counter to a new value]  
+ **So that** [I can correct mistakes or adjust values when needed]  
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,9 +17,9 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given [an existing counter with a current numeric value]
+ When [the user updates the counter to a new valid value]
+ Then [the system saves the new values and display the updated counter]
  ```
 
 Copied!
